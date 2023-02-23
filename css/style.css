@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+/* Cambia letra de los dias de los horarios*/
+.dias th, .titulo {
+    font-weight: bold;
+    font-size: 24px;
+}
+/* Cambia la letra de las horas de los horarios */
+.horas {
+    font-style: italic;
+    font-size: 18px;
+}
+/* las medidas para el size fueron tomadas del cuadro brindado en el pdf */
+/* Cambia los colores de los dias y horarios */
+.lun {
+    color: blue;
+}
+.mar {
+    color: red;
+}
+.mie {
+    color: blueviolet;
+}
+.jue {
+    color: green;
+}
+.vie {
+    color: saddlebrown;
+}
