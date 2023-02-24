@@ -8,6 +8,45 @@ body {
     background-color: beige;
 }
 
+.header {
+    display: inline-block;
+    background-color: #cc8e13;
+    width: 100%;
+    margin: 1px;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+}
+
+li, li a {
+    text-decoration: none;
+    display: inline;
+    margin: 2px;
+}
+
+section {
+    background-color: #6a63ef;
+    border-style: dotted;
+    border-radius: 8px;
+    border-color: #130d83;
+}
+
+section a img:hover {
+    transform: scale(0.9);
+    transition: all 300ms;
+}
+
+.footer {
+    background-color: #fff;
+    border-style: solid;
+    border-color: #cc8e13;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+}
+
 /* Cambia letra de los dias de los horarios*/
 .dias th, .titulo {
     font-weight: bold;
